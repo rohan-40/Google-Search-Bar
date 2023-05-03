@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+    padding: 2%;
+    background-image: url(https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_1280.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.links {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.links a {
+    color: rgba(241, 218, 218, 0.545);
+    font-size: 14px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.links button{
+    border:2px solid gray;
+    border-radius: 8px;
+    background-color:rgb(85, 69, 47);
+
+}
+
+#logo {
+    margin-left: 435px;
+    mix-blend-mode:color-burn;
+    height: 250px;
+    width: 600px;
+}
+
+.search {
+    margin-top: 37px;
+    margin-left: 450px;
+    width: 580px;
+    height: 50px;
+    max-width: 700px;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+}
+
+.search input {
+    margin-left: 10px;
+    background: transparent;
+    height: 30px;
+    width: 500px;
+    border: 0px;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    color: #cac7ff;
+}
+
+::placeholder {
+    color: rgb(71, 85, 122);
+}
+
+.search button img {
+    margin-left: 1px;
+    margin-top:0px;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+}
+
+.search button {
+    margin-right: -11px;
+    border: 0;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background: #58629b;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    margin-left: 633px;
+    margin-top: 50px;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+
+.footer a {
+    color: #9b9b9b;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 0 10px;
+}
